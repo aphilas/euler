@@ -1,10 +1,10 @@
-package factors003_test
+package e003_test
 
 import (
 	"reflect"
 	"testing"
 
-	f "github.com/nevilleomangi/euler/factors003"
+	f "github.com/nevilleomangi/euler/e003"
 )
 
 func TestPrimeFactors(t *testing.T) {

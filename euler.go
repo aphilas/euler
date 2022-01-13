@@ -3,11 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nevilleomangi/euler/factors003"
+	"github.com/nevilleomangi/euler/e005"
 )
 
 func main() {
-	n := 600851475143
-	f := factors003.PrimeFactorsTrial(n)
-	fmt.Println(f[len(f)-1])
+	fmt.Println(e005.RangeLCMEuclid(20))
 }

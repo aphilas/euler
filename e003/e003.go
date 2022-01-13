@@ -1,4 +1,4 @@
-package factors003
+package e003
 
 import "math"
 
@@ -9,7 +9,6 @@ func SieveOfEratosthenes(n int) []int {
 	// Mark 0 and 1 as composites
 	sieve[0], sieve[1] = true, true
 
-	// Mark off all multiples of primes as composites
 	for p := 2; p*p <= n; p++ {
 		if !sieve[p] {
 			for i := p * 2; i <= n; i += p {
