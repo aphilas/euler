@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nevilleomangi/euler/e004"
+	"github.com/nevilleomangi/euler/e007"
 )
 
 func main() {
-	fmt.Println(e004.PalNaive2(3))
+	fmt.Println(e007.PrimeN(10001))
 }
