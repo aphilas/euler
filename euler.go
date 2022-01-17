@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nevilleomangi/euler/e006"
+	"github.com/nevilleomangi/euler/e004"
 )
 
 func main() {
-	fmt.Println(e006.SquareSum(100) - e006.SumSquares(100))
+	fmt.Println(e004.PalNaive2(3))
 }
