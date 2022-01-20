@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nevilleomangi/euler/e007"
+	"github.com/nevilleomangi/euler/e009"
 )
 
 func main() {
-	fmt.Println(e007.PrimeN(10001))
+	fmt.Println(e009.EuclideanTriples(1000))
 }
