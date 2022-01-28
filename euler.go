@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nevilleomangi/euler/e010"
+	"github.com/nevilleomangi/euler/e011"
 )
 
 func main() {
-	fmt.Println(e010.SumPrimes(2000000))
+	fmt.Println(e011.GridProduct(e011.Grid))
 }
